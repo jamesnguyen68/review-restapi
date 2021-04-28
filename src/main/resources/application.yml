@@ -26,5 +26,5 @@ spring:
       # ! DONT USE CREATE-DROP
         ddl-auto: update
 
-
+# terminal run springboot
   

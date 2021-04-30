@@ -1,0 +1,30 @@
+server:
+  port: 9000
+spring:
+    datasource:
+    # Schema H2
+      url: jdbc:h2:mem:stock
+      # Driver
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
+      # Get sql file from resources execute
+      platform: sqlFile
+
+    h2:
+      console:
+        enabled: true
+        path: /h2
+        settings:
+          trace: false
+          web-allow-others: false
+
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      show-sql: true
+      hibernate:
+      # ! DONT USE CREATE-DROP
+        ddl-auto: update
+
+# terminal run springboot
+  

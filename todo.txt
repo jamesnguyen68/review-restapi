@@ -1,0 +1,13 @@
+// ok Enity - Ok Reposity
+// services - controller
+
+// login signup  // User COntroller AddminController Spring Security
+ 
+
+ // protected area
+// list stock == Stock Contrller
+// make request api
+// EIX htpp => response json
+/// https://jsonplaceholder.typicode.com/
+
+// service read https://jsonplaceholder.typicode.com/
